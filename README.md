@@ -26,6 +26,17 @@ When a user touches a pad, the sensor detects the change in capacitance and comm
 -  Development environment: Arduino IDE
 -  Programming language: C++
 -  Microcontroller platform: ESP32
+- Planned software functionality:
+  
+  --  Initialise communication with the MPR121 sensor.
+  
+  --  Read the eight capacitive touch inputs.
+  
+  --  Map each input to its corresponding musical frequency.
+  
+  --  Generate sound using the ESP32.
+  
+  --  Handle touch release and prevent unwanted repeated triggering.
   ##  Mechanical Design
 
 The enclosure is being developed using Onshape CAD.
